@@ -6,6 +6,7 @@ namespace FitnessEquipment.Domain.Weights.Models
         CastIron = 0,
         Steel = 1,
         SolidPlastic = 2,
-        Rubber = 3
+        Rubber = 3,
+        SteelAndRubber = 4
     }
 }

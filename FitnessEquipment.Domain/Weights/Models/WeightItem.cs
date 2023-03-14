@@ -16,8 +16,10 @@ namespace FitnessEquipment.Domain.Weights.Models
 
         public double Kgs { get; set; }
 
+        public double Price { get; set; }
+
         public EnumWeightMaterials Materials { get; set; }
 
-        public byte[]? Image { get; set; }
+        public string? ImagePath { get; set; }
     }
 }

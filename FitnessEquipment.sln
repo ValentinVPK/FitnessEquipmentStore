@@ -5,11 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{873B61A2-9702-4448-8A21-7C400790777A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessEquipment.Server", "FitnessEquipment\Server\FitnessEquipment.Server.csproj", "{063B17AB-013F-4EE4-869E-730099FD1418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessEquipment.Server", "FitnessEquipment\Server\FitnessEquipment.Server.csproj", "{063B17AB-013F-4EE4-869E-730099FD1418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessEquipment.Client", "FitnessEquipment\Client\FitnessEquipment.Client.csproj", "{3E7A399E-4373-42D1-BB0D-B56AED955EAB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessEquipment.Shared", "FitnessEquipment\Shared\FitnessEquipment.Shared.csproj", "{4E6C8D6B-53CC-4D8D-A1B3-9BDEA2AD2A6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessEquipment.Client", "FitnessEquipment\Client\FitnessEquipment.Client.csproj", "{3E7A399E-4373-42D1-BB0D-B56AED955EAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{38BA9D6E-5793-43AD-94D1-4D7AEBBCD838}"
 EndProject
@@ -17,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B3EE5676-B9AA-4A7A-8849-2F0133189F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessEquipment.Domain", "FitnessEquipment.Domain\FitnessEquipment.Domain.csproj", "{5A6EEC1F-99FB-46E7-9751-08F79FE9D747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessEquipment.Domain", "FitnessEquipment.Domain\FitnessEquipment.Domain.csproj", "{5A6EEC1F-99FB-46E7-9751-08F79FE9D747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessEquipment.DataAccess", "FitnessEquipment.DataAccess\FitnessEquipment.DataAccess.csproj", "{34F11C40-3DC1-439B-A84A-55AFC12735F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessEquipment.DataAccess", "FitnessEquipment.DataAccess\FitnessEquipment.DataAccess.csproj", "{34F11C40-3DC1-439B-A84A-55AFC12735F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +33,6 @@ Global
 		{3E7A399E-4373-42D1-BB0D-B56AED955EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E7A399E-4373-42D1-BB0D-B56AED955EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E7A399E-4373-42D1-BB0D-B56AED955EAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E6C8D6B-53CC-4D8D-A1B3-9BDEA2AD2A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E6C8D6B-53CC-4D8D-A1B3-9BDEA2AD2A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E6C8D6B-53CC-4D8D-A1B3-9BDEA2AD2A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E6C8D6B-53CC-4D8D-A1B3-9BDEA2AD2A6E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A6EEC1F-99FB-46E7-9751-08F79FE9D747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A6EEC1F-99FB-46E7-9751-08F79FE9D747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A6EEC1F-99FB-46E7-9751-08F79FE9D747}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,7 +48,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{063B17AB-013F-4EE4-869E-730099FD1418} = {873B61A2-9702-4448-8A21-7C400790777A}
 		{3E7A399E-4373-42D1-BB0D-B56AED955EAB} = {873B61A2-9702-4448-8A21-7C400790777A}
-		{4E6C8D6B-53CC-4D8D-A1B3-9BDEA2AD2A6E} = {873B61A2-9702-4448-8A21-7C400790777A}
 		{5A6EEC1F-99FB-46E7-9751-08F79FE9D747} = {38BA9D6E-5793-43AD-94D1-4D7AEBBCD838}
 		{34F11C40-3DC1-439B-A84A-55AFC12735F2} = {38BA9D6E-5793-43AD-94D1-4D7AEBBCD838}
 	EndGlobalSection
